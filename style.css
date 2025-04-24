@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.header p{
+    font-size: 20px;
+    color: black;
+}
+.buttons{
+    display: flex;
+    column-gap: 20px;
+}
+.btn{
+    height: 40px;
+    padding: 10px 30px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+    box-shadow: 0px 0px 5px  5px rgba(71, 68, 68, 0.523);
+}
+.btn-new{
+    background-color: yellowgreen;
+}
+.btn-save{
+    background-color: rgb(215, 179, 90);
+}
+.notes-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: calc(20%/4);
+    row-gap: 20px;
+}
+.notes{
+    width: 20%;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(218, 228, 86, 0.566);
+    box-shadow: 0 0 5px grey;
+}
+.note-title{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.content{
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+}
+img{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    margin-left: 40%;
+    cursor: pointer;
+}
